@@ -209,7 +209,7 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f Remo773 "Himmat Choudhary")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
 Himmat Choudhary : (\e[33m19.8.2021\e[32m)
