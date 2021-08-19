@@ -67,14 +67,14 @@ fi
 }
 # note this is only print 7 charecters
 echo "";
-echo -e "\e[1;34m[*] \e[32minstall packages....\e[0m";
+echo -e "\e[1;34m[*] \e[32minstall ho rhe he packages wait kr chup chap....\e[0m";
 echo "";
 (apt update -y && apt upgrade -y) &> /dev/null;
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api procps gawk exa termux-tools -y &> /dev/null;
 rubygem_d &> /dev/null
 termux-wake-lock;
 if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
-	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
+	echo -e "\e[1;34m[*] \033[32mHimmat Choudhary.flf figlet font is present\033[0m";
 	sleep 4
 else
 wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
@@ -88,7 +88,7 @@ THEADER ()
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2020)
+Himmat Choudhary (2021)
 		
 	menu
 +---------------------------*/
@@ -111,7 +111,7 @@ if [ ${#PROC} -gt 8 ]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2020)
+Himmat Choudhary (2021)
 
 	menu
 +---------------------------*/
@@ -212,7 +212,7 @@ clear;
 echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
-Remo773 : (\e[33m14.4.2021\e[32m)
+Himmat Choudhary : (\e[33m19.8.2021\e[32m)
 
 1. Oh-my-zsh
 2. Zsh-syntax-highlight (\e[33mplugins\e[01;32m)
